@@ -7,8 +7,8 @@ ACCEPTED = []
 final_numbers = []
 
 # Twilio configuration
-account_sid = 'AC87859f72dab00068c45ed144e8e0b90c'
-auth_token = '43ff4b653c3b1357808a2eba65f89164'
+account_sid = 'ACb0f0d5177108d62390ca75ec78b05c79'
+auth_token = '644d3d6a1a92dbd821c2181f0c3717c8'
 client = Client(account_sid, auth_token)
 
 
