@@ -20,7 +20,7 @@ def create_app():
 
     # Configure your database
     app.config['SECRET_KEY'] = secrets.token_hex(32)
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://santhoshtk:Blms0011@blms-database.c3s8q0cewlnq.eu-north-1.rds.amazonaws.com:3306/blms'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///blms-database.db'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     app.config['SQLALCHEMY_ENGINE_OPTIONS'] = {
         'pool_size': 10,
